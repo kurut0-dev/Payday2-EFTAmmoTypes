@@ -1,0 +1,1523 @@
+<table name="EFTAmmoTypes">
+	<Localization directory="Localization" default="english.txt">
+	</Localization>
+
+	<!-- 5.56x45mm 55 HP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_hp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm 55 FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm M855 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m855" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm M855A1 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m855a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm M856 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m856" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="12"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm M856A1 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m856a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-2"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm M995 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m995" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="-7" spread="3" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm SSA AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_ssa_ap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="-11" spread="2" recoil="1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm Warmage -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_warmage" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="13"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm MK 255 Mod 0 (RRLP) -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_mk255" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="25"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.56x45mm MK 318 Mod 0 (SOST) -->
+	<WeaponMod id="wpn_fps_upg_a_eft_556x45_mk318" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="8"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm HP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_hp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="22"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm PP gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_pp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm PS gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_ps" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="0"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm US gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_us" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-8" alert_size="9" suppression="4" spread="-6" recoil="8"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm T gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_t" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="9"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm PRS gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_prs" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-3"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm BP gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_bp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-5" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm BT gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_bt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="2"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="35" dot_damage="6" dot_length="3" dot_trigger_max_distance="60000" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm BS gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_bs" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="-11" spread="2" recoil="2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm 7N39 Igolnik -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_igolnik" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="1" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm HP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_hp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm US gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_us" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-5" alert_size="9" suppression="4" spread="-6" recoil="8"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm PS gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_ps" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm T-45M1 gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_t45" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="13"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm BP gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_bp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="5"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm MAI AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_mai_ap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="-5" spread="2" recoil="1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x39mm FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm M80 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m80" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm M61 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m61" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="-1" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm M62 Tracer -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m62" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="4"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm M993 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m993" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="-1" spread="2" recoil="-3"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm BPZ FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_bpz" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" recoil="-1" damage="4"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm Ultra Nosler -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_ultra" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="8"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm TPZ SP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_tpz" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="14"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x51mm M948 SSA AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m948" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="2" alert_size="9" suppression="4" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR LPS Gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_lps" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR T-46M gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_t46m" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="2"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR SNB gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_snb" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="1" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR BT gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_bt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" spread="2" recoil="-1" damage="4"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="35" dot_damage="6" dot_length="3" dot_trigger_max_distance="60000" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR BS gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_bs" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="-2" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR 7N1 Sniper -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_7n1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="5"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x54mmR 7N37 Sniper -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_7n37" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="3" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x39mm SP-5 gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_sp5" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="7" alert_size="9" suppression="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x39mm SP-6 gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_sp6" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="1" alert_size="9" suppression="4" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x39mm PAB-9 gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_pab9" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="-1" alert_size="9" suppression="4" spread="2" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x39mm BP gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_bp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="1" alert_size="9" suppression="4" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x39mm 7N12 BP gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_7n12" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="-3" alert_size="9" suppression="4" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm FMJ M882 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm Luger CCI -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_luger" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="7"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm Pst gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_pst" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm RIP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_rip" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29" spread="-2" recoil="-3"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm QuakeMaker -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_quake" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm Green Tracer -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_green" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="0"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm AP 6.3 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_ap63" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm 7N21 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_7n21" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="9" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x19mm 7N31 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_7n31" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="9" spread="1" recoil="-3"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x18mm PM SP7 gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_sp7" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="17"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x18mm SP8 gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_sp8" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="10"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x18mm PS gs PP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_ps" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x18mm PRS gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_prs" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="14" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x18mm PPe gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_ppe" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="8" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 9x18mm PPT gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_ppt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="2" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .45 ACP FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_45acp_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .45 ACP Lasermatch FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_45acp_lasermatch" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="1" spread="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .45 ACP Hydra-Shok -->
+	<WeaponMod id="wpn_fps_upg_a_eft_45acp_hydra" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="19"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .45 ACP RIP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_45acp_rip" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29" recoil="-3"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .45 ACP AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_45acp_ap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="0" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .357 Magnum FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_357_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .357 Magnum HP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_357_hp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="27" recoil="-2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .357 Magnum JHP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_357_jhp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="17" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .357 Magnum SP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_357_sp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="13" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 4.6x30mm FMJ SX -->
+	<WeaponMod id="wpn_fps_upg_a_eft_46x30_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 4.6x30mm AP SX -->
+	<WeaponMod id="wpn_fps_upg_a_eft_46x30_ap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" recoil="-1" damage="4"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 4.6x30mm Action SX -->
+	<WeaponMod id="wpn_fps_upg_a_eft_46x30_action" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 4.6x30mm JSP SX -->
+	<WeaponMod id="wpn_fps_upg_a_eft_46x30_jsp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="20"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 4.6x30mm Subsonic SX -->
+	<WeaponMod id="wpn_fps_upg_a_eft_46x30_sub" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="0" alert_size="9" suppression="4" spread="-4" recoil="6"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm SS190 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_ss190" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-5"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm L191 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_l191" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="9" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="35" dot_damage="6" dot_length="3" dot_trigger_max_distance="60000" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm SS197SR -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_ss197" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="28" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm SS198LF -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_ss198" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="0"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm R37.F -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_r37f" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="22" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm R37.X -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_r37x" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="22" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.7x28mm SB193 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_57x28_sb193" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="7" recoil="-1"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x25mm TT LRN -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_lrn" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x25mm TT FMJ43 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_fmj43" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="7"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x25mm TT P gl -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_pgl" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x25mm TT LRNPC -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_lrnpc" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="8"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x25mm TT AKBS -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_akbs" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-2" recoil="-1"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 7.62x25mm TT Pst gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_pst" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="3"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12.7x55mm PS12 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_127x55_ps12" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12.7x55mm PS12A -->
+	<WeaponMod id="wpn_fps_upg_a_eft_127x55_ps12a" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="23" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12.7x55mm PS12B -->
+	<WeaponMod id="wpn_fps_upg_a_eft_127x55_ps12b" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="0" spread="2" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .338 Lapua Magnum FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_338_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" spread="2" damage="4"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .338 Lapua Magnum AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_338_ap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="1" spread="2" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .338 Lapua Magnum TAC-X -->
+	<WeaponMod id="wpn_fps_upg_a_eft_338_tac" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="7"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- .338 Lapua Magnum UCW -->
+	<WeaponMod id="wpn_fps_upg_a_eft_338_ucw" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="9"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 7mm Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_7mm" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="0" damage="10" spread="-2" moving_spread="-2" recoil="0"/>
+		<custom_stats rays="8" damage_near_mul="1" damage_far_mul="0.9" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 6.5mm Express Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_65exp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="2" damage="-1" spread="-3" moving_spread="-3" recoil="1"/>
+		<custom_stats rays="12" damage_near_mul="0.9" damage_far_mul="0.9" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 8.5mm Magnum Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_85mag" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="29" spread="-4" moving_spread="-4" recoil="-2"/>
+		<custom_stats rays="6" damage_near_mul="1.1" damage_far_mul="0.8" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 5.25mm Buckshot &quot;Piranha&quot; -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_525" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-6" spread="-5" moving_spread="-5" recoil="-1"/>
+		<custom_stats rays="20" damage_near_mul="0.85" damage_far_mul="0.7" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Shrapnel-10 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_shr10" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="17" spread="-6" moving_spread="-6" recoil="-2"/>
+		<custom_stats rays="10" damage_near_mul="1.1" damage_far_mul="0.7" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Shrapnel-25 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_shr25" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="23" spread="-7" moving_spread="-7" recoil="-2"/>
+		<custom_stats rays="6" damage_near_mul="1.2" damage_far_mul="0.6" armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 AP-20 Flechette -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_flech" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-5" damage="-1" spread="-2" moving_spread="-2" recoil="-1"/>
+		<custom_stats rays="6" damage_near_mul="1" damage_far_mul="1" armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Lead Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_lead" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="3" damage="4" spread="3" moving_spread="0" recoil="0"/>
+		<custom_stats rays="1" damage_near_mul="1.4" damage_far_mul="1.4" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 FTX Custom Lite Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_ftx" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="17" spread="4" moving_spread="1" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Hexagon Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_hexagon" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="23" spread="2" moving_spread="0" recoil="-2"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Poleva-3 Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_poleva3" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="0" damage="10" spread="1" moving_spread="0" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1.4" damage_far_mul="1.4" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Poleva-6u Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_poleva6u" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="14" spread="0" moving_spread="-1" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1.45" damage_far_mul="1.3" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 SuperFormance HP Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_superf" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="35" spread="3" moving_spread="0" recoil="-3"/>
+		<custom_stats rays="1" damage_near_mul="1.6" damage_far_mul="1.6" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Grizzly 40 Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_grizzly" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="19" spread="3" moving_spread="0" recoil="-2"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 Dual Sabot Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_dsabot" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="4" spread="-1" moving_spread="-2" recoil="-2"/>
+		<custom_stats rays="2" damage_near_mul="1.4" damage_far_mul="1.3" armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 12/70 RIP Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_rip" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="42" spread="1" moving_spread="-1" recoil="-4"/>
+		<custom_stats rays="1" damage_near_mul="1.6" damage_far_mul="1.2" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 23x75mm Barricade -->
+	<WeaponMod id="wpn_fps_upg_a_eft_23x75_barricade" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="45" spread="2" moving_spread="0" recoil="-4"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_wall="true" can_shoot_through_shield="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 23x75mm Shrapnel-10 (23mm) -->
+	<WeaponMod id="wpn_fps_upg_a_eft_23x75_shr10" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="0" damage="17" spread="-5" moving_spread="-5" recoil="-2"/>
+		<custom_stats rays="14" damage_near_mul="1.1" damage_far_mul="0.7" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 23x75mm Shrapnel-25 (23mm) -->
+	<WeaponMod id="wpn_fps_upg_a_eft_23x75_shr25" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="23" spread="-6" moving_spread="-6" recoil="-3"/>
+		<custom_stats rays="8" damage_near_mul="1.2" damage_far_mul="0.6" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 23x75mm Star Flare -->
+	<WeaponMod id="wpn_fps_upg_a_eft_23x75_star" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="-16" spread="2" moving_spread="0" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1" damage_far_mul="1" bullet_class="FlameBulletBase" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false">
+			<fire_dot_data dot_trigger_chance="100" dot_damage="10" dot_length="4" dot_trigger_max_distance="10000" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+
+	<!-- 5.45x39mm 7N40 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_7n40" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="3" recoil="2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 5.45x39mm SP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_545x39_sp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="16" spread="1" recoil="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x39mm PP gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_pp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="6" recoil="-1"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x39mm SP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x39_sp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="16" spread="1" recoil="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x51mm Ball 11 Long Range -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_ll" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="14" spread="6" recoil="-4"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x51mm M80A1 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m80a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="2" spread="-1" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x54mmR FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="5"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x54mmR HP BT -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_hpbt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="16" spread="2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x54mmR PS gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_ps" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="5" spread="4" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x54mmR SP BT -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_spbt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="10" spread="2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x54mmR Tungsten Carbide AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_twc" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="14" spread="4" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x39mm FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="23" alert_size="9" suppression="4" spread="1" recoil="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x39mm SPP gs -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x39_spp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="15" alert_size="9" suppression="4" spread="2" recoil="-2"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x19mm PBP gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_pbp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="-5" spread="3" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x19mm PSO gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x19_pso" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="10" alert_size="9" suppression="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm BZhT gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_bzht" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="8" alert_size="9" suppression="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm P gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_p" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats alert_size="9" suppression="4" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm PBM gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_pbm" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-6" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm PSO gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_pso" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="9" alert_size="9" suppression="4" spread="2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm Pst gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_pst" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats alert_size="9" suppression="4" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm PSV -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_psv" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="28" alert_size="9" suppression="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm RG028 gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_rg028" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="23" alert_size="9" suppression="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x18mm PMM PstM gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x18_pstm" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="14" recoil="-1"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x25mm TT M855A1 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_m855a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="-11"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x25mm TT M856A1 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_m856a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-11"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x25mm TT M995 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_m995" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-11"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 7.62x25mm TT PT gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_762x25_pt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="1" spread="-2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- 12/70 AP-20 Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_ap20" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="16" spread="1" moving_spread="0" recoil="-2"/>
+		<custom_stats rays="1" damage_near_mul="1.45" damage_far_mul="1.4" armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 12/70 Copper Sabot Premier HP Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_csabot" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="32" spread="3" moving_spread="0" recoil="-3"/>
+		<custom_stats rays="1" damage_near_mul="1.6" damage_far_mul="1.6" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 12/70 Makeshift .50 BMG Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_12ga_bmg" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="22" spread="2" moving_spread="0" recoil="-3"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .300 Blackout AP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_300blk_ap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="-4" spread="2" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .300 Blackout BCP FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_300blk_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .300 Blackout CBJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_300blk_cbj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="2" recoil="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .300 Blackout M62 Tracer -->
+	<WeaponMod id="wpn_fps_upg_a_eft_300blk_m62" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-1"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- .300 Blackout V-Max -->
+	<WeaponMod id="wpn_fps_upg_a_eft_300blk_vmax" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="16" spread="8" recoil="2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .300 Blackout Whisper -->
+	<WeaponMod id="wpn_fps_upg_a_eft_300blk_whisper" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29" spread="1" recoil="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 5.8x42mm DBP191 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_58x42_dbp191" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats recoil="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 5.8x42mm DBX95 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_58x42_dbx95" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="9" spread="-1" recoil="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- 5.8x42mm DVC12 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_58x42_dvc12" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="-3" spread="-1" recoil="-3"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 5.8x42mm DVX12 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_58x42_dvx12" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-1" spread="-2" recoil="-2"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- .366 TKM AP-M -->
+	<WeaponMod id="wpn_fps_upg_a_eft_366tkm_apm" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="1" spread="-4" recoil="-8"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .366 TKM EKO -->
+	<WeaponMod id="wpn_fps_upg_a_eft_366tkm_eko" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="-6" spread="-2" recoil="4"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .366 TKM FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_366tkm_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" recoil="-2" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .366 TKM Geksa -->
+	<WeaponMod id="wpn_fps_upg_a_eft_366tkm_geksa" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="10"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 6.8x51mm SIG FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_68x51_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 6.8x51mm SIG Hybrid -->
+	<WeaponMod id="wpn_fps_upg_a_eft_68x51_hybrid" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="0" spread="1" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9.3x64mm 7N33 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_93x64_7n33" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="2" spread="-1" recoil="-5"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9.3x64mm FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_93x64_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" spread="4" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9.3x64mm SP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_93x64_sp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="10" recoil="5"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x21mm 7N42 Zubilo -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x21_zubilo" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-4" spread="-1" recoil="-2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x21mm 7U4 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x21_7u4" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="-1" alert_size="9" suppression="4"/>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x21mm BT gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x21_bt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="-2" spread="-1"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x21mm P gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x21_p" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="10"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x21mm PE gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x21_pe" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="26" spread="1" recoil="1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 9x21mm PS gzh -->
+	<WeaponMod id="wpn_fps_upg_a_eft_9x21_ps" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats recoil="1" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 AE Copper Solid -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50ae_copper" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="9" spread="1" recoil="-2"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 AE FMJ -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50ae_fmj" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" recoil="-2" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 AE Hawk JSP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50ae_hawk" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="25" spread="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 AE JHP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50ae_jhp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="29" spread="-2" recoil="-1"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.9" ammo_pickup_max_mul="0.9"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 BMG HP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50bmg_hp" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="20" spread="4" recoil="-4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 BMG M21 Tracer -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50bmg_m21" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats damage="12" recoil="-5"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 BMG M33 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50bmg_m33" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats spread="-1" recoil="-6" damage="4"/>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- .50 BMG M903 SLAP -->
+	<WeaponMod id="wpn_fps_upg_a_eft_50bmg_slap" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-6" damage="-2" recoil="-7"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="true" ammo_pickup_min_mul="0.25" ammo_pickup_max_mul="0.25"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 12.7x108mm B-32 -->
+	<WeaponMod id="wpn_fps_upg_a_eft_127x108_b32" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" spread="2" damage="4"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="true" can_shoot_through_wall="false" ammo_pickup_min_mul="0.35" ammo_pickup_max_mul="0.35"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 12.7x108mm BZT-44M -->
+	<WeaponMod id="wpn_fps_upg_a_eft_127x108_bzt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-3" damage="8" spread="2"/>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5" bullet_class="FlameBulletBase">
+			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
+		</custom_stats>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 5.6mm Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_56" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-8" spread="-5" moving_spread="-5" recoil="1"/>
+		<custom_stats rays="16" damage_near_mul="0.85" damage_far_mul="0.7" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 6.2mm Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_62" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="1" damage="-6" spread="-4" moving_spread="-4" recoil="1"/>
+		<custom_stats rays="14" damage_near_mul="0.9" damage_far_mul="0.75" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 7.3mm Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_73" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="0" damage="0" spread="-3" moving_spread="-3" recoil="0"/>
+		<custom_stats rays="9" damage_near_mul="0.95" damage_far_mul="0.8" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 7.5mm Buckshot -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_75" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="0" damage="0" spread="-3" moving_spread="-3" recoil="0"/>
+		<custom_stats rays="8" damage_near_mul="1" damage_far_mul="0.85" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 Dangerous Game Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_dgslug" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="14" spread="3" moving_spread="0" recoil="-2"/>
+		<custom_stats rays="1" damage_near_mul="1.45" damage_far_mul="1.4" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 Devastator Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_devastator" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-2" damage="29" spread="3" moving_spread="0" recoil="-3"/>
+		<custom_stats rays="1" damage_near_mul="1.55" damage_far_mul="1.5" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 Flechette -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_flech" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="-4" spread="-2" moving_spread="-2" recoil="-1"/>
+		<custom_stats rays="6" damage_near_mul="1" damage_far_mul="1" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 Poleva-3 Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_poleva3" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="0" damage="6" spread="1" moving_spread="0" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1.35" damage_far_mul="1.35" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 Poleva-6u Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_poleva6u" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="10" spread="0" moving_spread="-1" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1.4" damage_far_mul="1.25" armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 Star Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_star" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-1" damage="19" spread="3" moving_spread="0" recoil="-1"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<!-- 20/70 TSS Armor Piercing Slug -->
+	<WeaponMod id="wpn_fps_upg_a_eft_20ga_tss" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_slug" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<stats total_ammo_mod="-4" damage="19" spread="2" moving_spread="0" recoil="-3"/>
+		<custom_stats rays="1" damage_near_mul="1.5" damage_far_mul="1.5" armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false"/>
+		<pcs/>
+	</WeaponMod>
+	<AddFiles directory="assets">
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_hp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_m855"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_m855a1"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_m856"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_m856a1"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_m995"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_ssa_ap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_warmage"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_mk255"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_556x45_mk318"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_hp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_pp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_ps"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_us"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_t"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_prs"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_bp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_bt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_bs"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_igolnik"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_hp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_us"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_ps"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_t45"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_bp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_mai_ap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_m80"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_m61"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_m62"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_m993"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_bpz"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_ultra"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_tpz"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_m948"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_lps"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_t46m"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_snb"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_bt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_bs"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_7n1"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_7n37"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_sp5"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_sp6"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_pab9"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_bp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_7n12"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_luger"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_pst"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_rip"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_quake"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_green"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_ap63"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_7n21"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_7n31"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_sp7"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_sp8"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_ps"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_prs"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_ppe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_ppt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_45acp_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_45acp_lasermatch"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_45acp_hydra"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_45acp_rip"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_45acp_ap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_357_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_357_hp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_357_jhp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_357_sp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_46x30_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_46x30_ap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_46x30_action"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_46x30_jsp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_46x30_sub"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_ss190"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_l191"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_ss197"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_ss198"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_r37f"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_r37x"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_57x28_sb193"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_lrn"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_fmj43"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_pgl"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_lrnpc"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_akbs"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_pst"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_127x55_ps12"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_127x55_ps12a"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_127x55_ps12b"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_338_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_338_ap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_338_tac"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_338_ucw"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_7mm"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_65exp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_85mag"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_525"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_shr10"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_shr25"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_flech"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_lead"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_ftx"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_hexagon"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_poleva3"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_poleva6u"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_superf"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_grizzly"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_dsabot"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_rip"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_23x75_barricade"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_23x75_shr10"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_23x75_shr25"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_23x75_star"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_7n40"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_545x39_sp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_pp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x39_sp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_ll"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x51_m80a1"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_hpbt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_ps"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_spbt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x54r_twc"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x39_spp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_pbp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x19_pso"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_bzht"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_p"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_pbm"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_pso"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_pst"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_psv"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_rg028"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x18_pstm"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_m855a1"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_m856a1"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_m995"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_762x25_pt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_ap20"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_csabot"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_12ga_bmg"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_300blk_ap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_300blk_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_300blk_cbj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_300blk_m62"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_300blk_vmax"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_300blk_whisper"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_58x42_dbp191"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_58x42_dbx95"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_58x42_dvc12"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_58x42_dvx12"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_366tkm_apm"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_366tkm_eko"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_366tkm_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_366tkm_geksa"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_68x51_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_68x51_hybrid"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_93x64_7n33"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_93x64_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_93x64_sp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x21_zubilo"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x21_7u4"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x21_bt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x21_p"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x21_pe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_9x21_ps"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50ae_copper"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50ae_fmj"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50ae_hawk"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50ae_jhp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50bmg_hp"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50bmg_m21"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50bmg_m33"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_50bmg_slap"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_127x108_b32"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_127x108_bzt"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_56"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_62"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_73"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_75"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_dgslug"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_devastator"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_flech"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_poleva3"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_poleva6u"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_star"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_a_eft_20ga_tss"/>
+	</AddFiles>
+
+	<Hooks directory="Hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+	</Hooks>
+</table>
