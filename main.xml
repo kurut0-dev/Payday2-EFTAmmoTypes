@@ -33,18 +33,14 @@
 	<!-- 5.56x45mm M856 -->
 	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m856" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="12"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_556x45_m856"/>
 		<pcs/>
 	</WeaponMod>
 
 	<!-- 5.56x45mm M856A1 -->
 	<WeaponMod id="wpn_fps_upg_a_eft_556x45_m856a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-1" damage="-2"/>
-		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_556x45_m856a1"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -121,9 +117,7 @@
 	<!-- 5.45x39mm T gs -->
 	<WeaponMod id="wpn_fps_upg_a_eft_545x39_t" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="9"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_545x39_t"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -144,9 +138,7 @@
 	<!-- 5.45x39mm BT gs -->
 	<WeaponMod id="wpn_fps_upg_a_eft_545x39_bt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-1" damage="2"/>
-		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="35" dot_damage="6" dot_length="3" dot_trigger_max_distance="60000" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_545x39_bt"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -230,9 +222,7 @@
 	<!-- 7.62x51mm M62 Tracer -->
 	<WeaponMod id="wpn_fps_upg_a_eft_762x51_m62" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-1" damage="4"/>
-		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_762x51_m62"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -281,9 +271,7 @@
 	<!-- 7.62x54mmR T-46M gzh -->
 	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_t46m" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-1" damage="2"/>
-		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_762x54r_t46m"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -297,9 +285,7 @@
 	<!-- 7.62x54mmR BT gzh -->
 	<WeaponMod id="wpn_fps_upg_a_eft_762x54r_bt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-3" spread="2" recoil="-1" damage="4"/>
-		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="35" dot_damage="6" dot_length="3" dot_trigger_max_distance="60000" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_762x54r_bt"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -397,9 +383,7 @@
 	<!-- 9x19mm Green Tracer -->
 	<WeaponMod id="wpn_fps_upg_a_eft_9x19_green" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="0"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_9x19_green"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -574,9 +558,7 @@
 	<!-- 5.7x28mm L191 -->
 	<WeaponMod id="wpn_fps_upg_a_eft_57x28_l191" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="9" recoil="-1"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="35" dot_damage="6" dot_length="3" dot_trigger_max_distance="60000" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_57x28_l191"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -842,9 +824,7 @@
 	<!-- 23x75mm Star Flare -->
 	<WeaponMod id="wpn_fps_upg_a_eft_23x75_star" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-3" damage="-16" spread="2" moving_spread="0" recoil="-1"/>
-		<custom_stats rays="1" damage_near_mul="1" damage_far_mul="1" bullet_class="FlameBulletBase" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false">
-			<fire_dot_data dot_trigger_chance="100" dot_damage="10" dot_length="4" dot_trigger_max_distance="10000" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats rays="1" damage_near_mul="1" damage_far_mul="1" bullet_class="FlameBulletBase" armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" dot_data_name="wpn_fps_upg_a_eft_23x75_star"/>
 		<pcs/>
 	</WeaponMod>
 
@@ -995,9 +975,7 @@
 	<!-- 7.62x25mm TT M856A1 -->
 	<WeaponMod id="wpn_fps_upg_a_eft_762x25_m856a1" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="1" damage="-11"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_762x25_m856a1"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- 7.62x25mm TT M995 -->
@@ -1009,9 +987,7 @@
 	<!-- 7.62x25mm TT PT gzh -->
 	<WeaponMod id="wpn_fps_upg_a_eft_762x25_pt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="1" spread="-2"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_762x25_pt"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- 12/70 AP-20 Slug -->
@@ -1053,9 +1029,7 @@
 	<!-- .300 Blackout M62 Tracer -->
 	<WeaponMod id="wpn_fps_upg_a_eft_300blk_m62" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-1" damage="-1"/>
-		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_300blk_m62"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- .300 Blackout V-Max -->
@@ -1079,9 +1053,7 @@
 	<!-- 5.8x42mm DBX95 -->
 	<WeaponMod id="wpn_fps_upg_a_eft_58x42_dbx95" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="9" spread="-1" recoil="1"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_58x42_dbx95"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- 5.8x42mm DVC12 -->
@@ -1093,9 +1065,7 @@
 	<!-- 5.8x42mm DVX12 -->
 	<WeaponMod id="wpn_fps_upg_a_eft_58x42_dvx12" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-1" damage="-1" spread="-2" recoil="-2"/>
-		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0.49" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.85" ammo_pickup_max_mul="0.85" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_58x42_dvx12"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- .366 TKM AP-M -->
@@ -1167,9 +1137,7 @@
 	<!-- 9x21mm BT gzh -->
 	<WeaponMod id="wpn_fps_upg_a_eft_9x21_bt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-2" damage="-2" spread="-1"/>
-		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.65" ammo_pickup_max_mul="0.65" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_9x21_bt"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- 9x21mm P gzh -->
@@ -1223,9 +1191,7 @@
 	<!-- .50 BMG M21 Tracer -->
 	<WeaponMod id="wpn_fps_upg_a_eft_50bmg_m21" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats damage="12" recoil="-5"/>
-		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="0" can_shoot_through_enemy="false" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="1" ammo_pickup_max_mul="1" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_50bmg_m21"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- .50 BMG M33 -->
@@ -1249,9 +1215,7 @@
 	<!-- 12.7x108mm BZT-44M -->
 	<WeaponMod id="wpn_fps_upg_a_eft_127x108_bzt" based_on="wpn_fps_upg_a_custom_free" type="ammo" has_description="true" sub_type="ammo_dragons_breath" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
 		<stats total_ammo_mod="-3" damage="8" spread="2"/>
-		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5" bullet_class="FlameBulletBase">
-			<fire_dot_data dot_trigger_chance="8" dot_damage="4" dot_length="3" dot_trigger_max_distance="11500" dot_tick_period="0.5"/>
-		</custom_stats>
+		<custom_stats armor_piercing_add="1" can_shoot_through_enemy="true" can_shoot_through_shield="false" can_shoot_through_wall="false" ammo_pickup_min_mul="0.5" ammo_pickup_max_mul="0.5" bullet_class="FlameBulletBase" dot_data_name="wpn_fps_upg_a_eft_127x108_bzt"/>
 		<pcs/>
 	</WeaponMod>
 	<!-- 20/70 5.6mm Buckshot -->
@@ -1543,5 +1507,6 @@
 
 	<Hooks directory="Hooks">
 		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="firetweakdata.lua" source_file="lib/tweak_data/firetweakdata"/>
 	</Hooks>
 </table>
